@@ -1,0 +1,3 @@
+{"v":0,"name":"sugar","msg":"Lend me some sugar, I am your neighbor.","level":30,"hostname":"Dogelana","pid":17120,"time":"2024-01-14T21:36:44.6497067Z","target":"sugar","line":123,"file":"src/main.rs"}
+{"v":0,"name":"sugar","msg":"MissingFileError(\"config.json\")","level":50,"hostname":"Dogelana","pid":17120,"time":"2024-01-14T21:36:44.6502255Z","target":"sugar_cli::config::parser","line":21,"file":"src\\config\\parser.rs"}
+{"v":0,"name":"sugar","msg":"Assets directory is missing or empty.","level":30,"hostname":"Dogelana","pid":17120,"time":"2024-01-14T21:37:33.7996134Z","target":"sugar_cli::validate::process","line":33,"file":"src\\validate\\process.rs"}

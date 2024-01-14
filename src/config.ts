@@ -9,7 +9,7 @@ export const rpcHost =
 
 export const candyMachineId = new PublicKey(
   process.env.NEXT_PUBLIC_CANDY_MACHINE_ID ||
-    "FNvTVsuLSLs3uCKY2UAMBVBYr4evrYYMwvSTwNZ6y8Af"
+    "4uda557RPfSudbntGwccrPcCHCyZA61Q681Kt7PDfaks"
 );
 export const defaultGuardGroup =
   process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || undefined; // undefined means default
@@ -34,7 +34,7 @@ export const collectionTitle =
   process.env.NEXT_PUBLIC_COLLECTION_TITLE || "Saga Doges";
 
 export const collectionDescription =
-  process.env.NEXT_PUBLIC_COLLECTION_DESCRIPTION || "Congratulations on your Solana Saga phone! That was a smart choice! Now please enjoy a Saga Doge (or ten). These one-of-a-kind doges powered by Dogelana are sure to bring your Saga game to the next level.";
+  process.env.NEXT_PUBLIC_COLLECTION_DESCRIPTION || "Congratulations on your Solana Saga phone! That was a smart choice! Now please enjoy a Saga Doge (or ten). These one-of-a-kind doges powered by Dogelana are sure to bring your Saga collection game to the next level.";
 
 export const tokenType =
   process.env.NEXT_PUBLIC_TOKEN_TYPE || "Token";
