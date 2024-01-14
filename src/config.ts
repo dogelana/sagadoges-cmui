@@ -9,7 +9,7 @@ export const rpcHost =
 
 export const candyMachineId = new PublicKey(
   process.env.NEXT_PUBLIC_CANDY_MACHINE_ID ||
-    "3zwFR3spiwbSSMtvVKG2bRT6ttqFoC3MHCafGP8ZrdLz"
+    "FNvTVsuLSLs3uCKY2UAMBVBYr4evrYYMwvSTwNZ6y8Af"
 );
 export const defaultGuardGroup =
   process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || undefined; // undefined means default
@@ -31,19 +31,19 @@ export const collectionImageURL =
   process.env.NEXT_PUBLIC_COLLECTION_IMAGE_URL || "https://images.pexels.com/photos/2832432/pexels-photo-2832432.png";
 
 export const collectionTitle =
-  process.env.NEXT_PUBLIC_COLLECTION_TITLE || "Collection Name";
+  process.env.NEXT_PUBLIC_COLLECTION_TITLE || "Saga Doges";
 
 export const collectionDescription =
-  process.env.NEXT_PUBLIC_COLLECTION_DESCRIPTION || "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.";
+  process.env.NEXT_PUBLIC_COLLECTION_DESCRIPTION || "Congratulations on your Solana Saga phone! That was a smart choice! Now please enjoy a Saga Doge (or ten). These one-of-a-kind doges powered by Dogelana are sure to bring your Saga game to the next level.";
 
 export const tokenType =
   process.env.NEXT_PUBLIC_TOKEN_TYPE || "Token";
 
 export const websiteURL =
-  process.env.NEXT_PUBLIC_WEBSITE_URL || "#";
+  process.env.NEXT_PUBLIC_WEBSITE_URL || "https://www.dogelana.com";
 
 export const twitterURL =
-  process.env.NEXT_PUBLIC_TWITTER_URL || "#";
+  process.env.NEXT_PUBLIC_TWITTER_URL || "https://www.x.com/realdogelana";
 
 export const discordURL =
-  process.env.NEXT_PUBLIC_DISCORD_URL || "#";
+  process.env.NEXT_PUBLIC_DISCORD_URL || "https://discord.gg/UNjbTguY5x";
