@@ -458,9 +458,9 @@ export const parseGuardStates = ({
   }
 
   if (guards.gate?.nfts) {
-    let canPayFor = guards.burn?.nfts.length ? 10 : 0;
+    let canPayFor = guards.gate?.nfts.length ? 10 : 0;
     if (!canPayFor)
-      states.messages.push(`Not enough of or no NFTs to pass the gate.`);
+      states.messages.push(`You must hold a Saga Genesis NFT to mint Saga Doges.`);
     states.canPayFor = Math.min(states.canPayFor, canPayFor);
   }
 
