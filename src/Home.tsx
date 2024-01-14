@@ -345,20 +345,14 @@ const ConnectWallet = styled(WalletMultiButton)`
 export interface HomeProps {
   candyMachineId: PublicKey;
 }
-const candyMachinOps = {
-  allowLists: [
-    {
-      list: require("../cmv3-demo-initialization/allowlist.json"),
-      groupLabel: "waoed",
-    },
-  ],
-};
+
+
+
 const Home = (props: HomeProps) => {
   const { connection } = useConnection();
   const wallet = useWallet();
   const candyMachineV3 = useCandyMachineV3(
     props.candyMachineId,
-    candyMachinOps
   );
 
   const [balance, setBalance] = useState<number>();
