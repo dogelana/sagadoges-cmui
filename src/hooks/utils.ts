@@ -371,7 +371,7 @@ export const parseGuardStates = ({
         : 10;
     states.isLimitReached = !canPayFor;
     if (!canPayFor)
-      states.messages.push("Mint limit for each user has been reached.");
+      states.messages.push("Woof! Mint limit reached!");
     states.canPayFor = Math.min(states.canPayFor, canPayFor);
   }
 
