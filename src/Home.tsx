@@ -106,6 +106,8 @@ const ImageWrap = styled.div`
   background-image: url(${ collectionImageURL });
   background-size: cover;
   border-radius: 16px;
+  filter: brightness(1.2);
+  box-shadow: inset 0px 0px 50px black;
 `
 const Image = styled.div`
   height: 100%
@@ -612,12 +614,12 @@ const Home = (props: HomeProps) => {
                 <InfoRow>
                 {guardStates.isStarted && wallet.publicKey && (
                   <InfoBox>
-                    <p>Total items</p>
+                    <p>Supply:</p>
                     <p>{candyMachineV3.items.available}{" "}</p>
                   </InfoBox>
                 )} {guardStates.isStarted && wallet.publicKey && (
                   <InfoBox>
-                    <p>Price</p>
+                    <p>Cost:</p>
                     <p>{candyPrice}</p>
                   </InfoBox>
                 )}
@@ -682,7 +684,7 @@ const Home = (props: HomeProps) => {
                 <ProgressbarWrap>
                 {guardStates.isStarted && wallet.publicKey && (
                   <MintCount>
-                    Total minted {candyMachineV3.items.redeemed} /  
+                    Progress: {candyMachineV3.items.redeemed} /   
                     {candyMachineV3.items.available}{" "}
                     {(guards?.mintLimit?.mintCounter?.count ||
                       guards?.mintLimit?.settings?.limit) && (
