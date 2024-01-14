@@ -529,7 +529,7 @@ const Home = (props: HomeProps) => {
   } else if (prices.payment.filter(({kind}) => kind === "sol").reduce((a, { price }) => a + price, 0)) {
     candyPrice = `◎ ${solCost}`
   } else {
-    candyPrice = "1 NFT"
+    candyPrice = "◎ 0.01"
   }
 
   console.log(candyPrice);
@@ -684,9 +684,8 @@ const Home = (props: HomeProps) => {
                 <ProgressbarWrap>
                 {guardStates.isStarted && wallet.publicKey && (
                   <MintCount>
-                    Progress: {candyMachineV3.items.redeemed} /   
-                    {candyMachineV3.items.available}{" "}
-                    {(guards?.mintLimit?.mintCounter?.count ||
+                    Progress: {candyMachineV3.items.redeemed}/{candyMachineV3.items.available}{" "}
+                {(guards?.mintLimit?.mintCounter?.count ||
                       guards?.mintLimit?.settings?.limit) && (
                         <MintedByYou>
                         <>
