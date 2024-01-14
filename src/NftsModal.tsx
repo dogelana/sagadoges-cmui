@@ -71,7 +71,7 @@ export default function NftsModal({
     >
       <DialogActions>
         <DialogTitle id="alert-dialog-slide-title">
-          Congratulations you just minted:
+          Congratulations! You minted:
         </DialogTitle>
         <Action onClick={handleClose}>Close</Action>  
       </DialogActions>
