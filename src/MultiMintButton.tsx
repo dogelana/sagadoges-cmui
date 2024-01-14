@@ -354,7 +354,6 @@ export const MultiMintButton = ({
           {!isSoldOut && isActive && (
         <EstimatedCost>
           Cost: {costSolUI(totalSolCost)} SOL
-          {totalTokenCostsString}
         </EstimatedCost>
         )}
         </CTAButton>
