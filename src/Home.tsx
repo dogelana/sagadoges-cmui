@@ -517,14 +517,7 @@ const Home = (props: HomeProps) => {
     [prices]
   );
 
-  let candyPrice = null;
-   if (prices.payment.filter(({kind}) => kind === "token").reduce((a, { kind }) => a + kind, "")) {
-    candyPrice = `${tokenCost} ${tokenType}`
-  } else if (prices.payment.filter(({kind}) => kind === "sol").reduce((a, { price }) => a + price, 0)) {
-    candyPrice = `◎ ${solCost}`
-  } else {
-    candyPrice = "◎ 0.01"
-  }
+  let candyPrice = "◎ 0.025";
 
   console.log(candyPrice);
   // Icons
