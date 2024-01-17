@@ -341,9 +341,9 @@ export const MultiMintButton = ({
             mintCount > limit ? (
               "LIMIT REACHED"
             ) : isMinting || loading ? (
-              "PLEASE WAIT, MINT IN PROGRESS"
+              "MINTING A SAGA DOGE..."
             ) : (
-              "MINT"
+              "MINT A SAGA DOGE"
             )
           ) : isEnded ? (
             "ENDED"
@@ -353,7 +353,6 @@ export const MultiMintButton = ({
 
           {!isSoldOut && isActive && (
         <EstimatedCost>
-          Cost: {costSolUI(totalSolCost)} SOL
         </EstimatedCost>
         )}
         </CTAButton>
