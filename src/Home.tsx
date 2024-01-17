@@ -517,7 +517,7 @@ const Home = (props: HomeProps) => {
     [prices]
   );
 
-  let candyPrice = "0.05 SOL";
+  let candyPrice = "0.050 SOL";
 
   console.log(candyPrice);
   // Icons
