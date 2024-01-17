@@ -517,7 +517,7 @@ const Home = (props: HomeProps) => {
     [prices]
   );
 
-  let candyPrice = "◎ 0.025";
+  let candyPrice = "0.05 SOL";
 
   console.log(candyPrice);
   // Icons
@@ -602,7 +602,7 @@ const Home = (props: HomeProps) => {
                 {guardStates.isStarted && wallet.publicKey && (
                   <InfoBox>
                     <p>Supply:</p>
-                    <p>{candyMachineV3.items.available}{" "}</p>
+                    <p>3,333</p>
                   </InfoBox>
                 )} {guardStates.isStarted && wallet.publicKey && (
                   <InfoBox>
