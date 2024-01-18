@@ -602,7 +602,7 @@ const Home = (props: HomeProps) => {
                 {guardStates.isStarted && wallet.publicKey && (
                   <InfoBox>
                     <p>Supply:</p>
-                    <p>3,333</p>
+                    <p>4,444</p>
                   </InfoBox>
                 )} {guardStates.isStarted && wallet.publicKey && (
                   <InfoBox>
