@@ -5,7 +5,7 @@ export const network = (process.env.NEXT_PUBLIC_SOLANA_NETWORK ||
   WalletAdapterNetwork.Mainnet) as WalletAdapterNetwork;
 // const network = WalletAdapterNetwork.Devnet;
 export const rpcHost =
-  process.env.NEXT_PUBLIC_RPC_HOST || clusterApiUrl(network);
+  "https://misty-compatible-feather.solana-mainnet.discover.quiknode.pro/3b8afc50d896f3dd0fd4e509976105552b48411c/" || clusterApiUrl(network);
 
 export const candyMachineId = new PublicKey(
   process.env.NEXT_PUBLIC_CANDY_MACHINE_ID ||
