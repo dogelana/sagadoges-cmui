@@ -27,7 +27,7 @@ export const collectionTitle =
   process.env.NEXT_PUBLIC_COLLECTION_TITLE || "Saga Doges";
 
 export const collectionDescription =
-  process.env.NEXT_PUBLIC_COLLECTION_DESCRIPTION || "Congratulations on your Solana Saga phone! That was a smart choice! Now please enjoy a Saga Doge (or two)! These one-of-a-kind doges powered by Dogelana are sure to bring your Saga collection game to the next level.";
+  process.env.NEXT_PUBLIC_COLLECTION_DESCRIPTION || "These one-of-a-kind doges powered by Dogelana are sure to bring your Saga-inspired collection game to the next level. They were first minted early to Saga Mobile phone owners only, and are now available to everyone!";
 
 export const tokenType =
   process.env.NEXT_PUBLIC_TOKEN_TYPE || "Token";
